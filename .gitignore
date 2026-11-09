@@ -1,0 +1,26 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Media and outputs
+media/*
+!media/.gitkeep
+out.mp4
+test.csv
+test_interpolated.csv
+debug_crop_*.jpg
+test_quick.mp4
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# OCR large weights (auto-downloaded by EasyOCR if missing)
+models/easyocr/
