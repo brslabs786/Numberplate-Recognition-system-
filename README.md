@@ -57,5 +57,12 @@ Open your browser and navigate to: **http://localhost:8000**
 └── media/                  # Output directory for processed videos
 ```
 
-## 📜 License
+## 👨‍💻 Author & Portfolio
+
+**Biswaranjan Swain**
+- **GitHub:** [@brslabs786](https://github.com/brslabs786)
+- **Project Repo:** [Numberplate-Recognition-system-](https://github.com/brslabs786/Numberplate-Recognition-system-)
+
+## 📜 License & Copyright
+© 2026 Biswaranjan Swain. All Rights Reserved.  
 This project is licensed under the MIT / GNU General Public License.

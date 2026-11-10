@@ -83,12 +83,16 @@
         </div>
       </div>
 
-      <div class="flex items-center space-x-4">
+      <div class="flex items-center space-x-3">
         <!-- Quick Sample Button -->
         <button id="btnTrySample" class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white px-3 py-1.5 rounded-lg border border-slate-700 transition flex items-center gap-1.5">
           <i data-lucide="sparkles" class="w-3.5 h-3.5 text-amber-400"></i>
           <span>Try Sample Image</span>
         </button>
+        <a href="https://github.com/brslabs786" target="_blank" rel="noopener noreferrer" class="hidden sm:flex items-center space-x-1.5 text-xs bg-indigo-950/50 hover:bg-indigo-900/60 text-indigo-300 hover:text-white px-3 py-1.5 rounded-lg border border-indigo-700/40 transition">
+          <i data-lucide="folder-git-2" class="w-3.5 h-3.5"></i>
+          <span>Portfolio</span>
+        </a>
         <div class="h-4 w-px bg-slate-800"></div>
         <div class="flex items-center space-x-1.5 text-xs text-slate-400">
           <span class="w-2 h-2 rounded-full bg-indigo-500"></span>
@@ -286,11 +290,43 @@
 
   </main>
 
-  <!-- Footer -->
-  <footer class="border-t border-slate-900 bg-slate-950 py-6 text-center text-xs text-slate-500">
-    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-      <p>Automatic Number Plate Recognition (ANPR) • Powered by YOLOv8 & EasyOCR</p>
-      <p class="text-slate-600">Built for Indian HSRP, Bharat Series & Standard Vehicle Plates</p>
+  <!-- Footer with All Rights Reserved & Portfolio Details -->
+  <footer class="border-t border-slate-900 bg-slate-950/80 backdrop-blur-md py-8 text-xs text-slate-400 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 border-b border-slate-900 pb-6">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-cyan-500 p-[1.5px] shadow-md shadow-indigo-500/20">
+            <div class="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center font-bold text-indigo-400 text-xs">
+              BS
+            </div>
+          </div>
+          <div>
+            <p class="font-semibold text-slate-200 text-sm">AI ANPR Studio • Portfolio Project</p>
+            <p class="text-[11px] text-slate-400">Created by <span class="text-indigo-400 font-medium">Biswaranjan Swain</span></p>
+          </div>
+        </div>
+
+        <div class="flex items-center space-x-4 text-xs">
+          <a href="https://github.com/brslabs786" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-400 transition flex items-center gap-1.5 text-slate-300">
+            <i data-lucide="github" class="w-3.5 h-3.5 text-indigo-400"></i>
+            <span>GitHub Profile</span>
+          </a>
+          <span class="text-slate-800">•</span>
+          <a href="https://github.com/brslabs786/Numberplate-Recognition-system-" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-400 transition flex items-center gap-1.5 text-slate-300">
+            <i data-lucide="git-branch" class="w-3.5 h-3.5 text-indigo-400"></i>
+            <span>Project Repository</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-2 text-slate-500 text-[11px]">
+        <p>© 2026 <span class="text-slate-300 font-medium">Biswaranjan Swain</span>. All Rights Reserved.</p>
+        <p class="flex items-center gap-1.5">
+          <span>Indian HSRP & Bharat (BH) Series</span>
+          <span class="text-slate-700">•</span>
+          <span>YOLOv8 + EasyOCR + SORT</span>
+        </p>
+      </div>
     </div>
   </footer>
 
